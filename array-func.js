@@ -665,8 +665,6 @@ sputniks
     .filter(sp => sp.active)
     .forEach(iterate)
 
-
-
 function myForEach(array, act) {
     for (let i = 0; i < array.length; i++) {
         act(array[i])
@@ -687,5 +685,3 @@ changeFruit(fruits[2])
 
 myForEach(fruits, changeFruit)
 //myForEach(fruits, x => console.log(x.substring(0, 2)))
-
-
